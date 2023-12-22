@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+    <title>CPU SCHEDULING</title>
+</head>
+<body>
+    <h1>First Come First Serve</h1>
+    <main>
+        <div class="container">
+            <label for="">Arrival Times</label>
+            <input id="arrival" type="text" placeholder="e.g 5 9 7 8">
+            <label for="">Burst Times</label>
+            <input id="burst" type="text" placeholder="e.g 1 8 9 4">
+            <input type="button" value="Solve" onclick="FCFS_Solver()">
+            <input class="clearBtn" type="button" value="Clear" onclick="Clear()">
+        </div>        
+    </main>  
+    <section>
+        <h1 id="label">INPUT</h1>
+        <div id="append" class="solution">
+        </div> 
+    </section> 
+    <section>
+        <h1 id="label2">OUTPUT</h1>
+        <div id="append2" class="solution" >
+        </div> 
+    </section>   
+    <section>
+        <h1 id="label3">AVERAGE</h1>
+        <div id="append3" class="solution" >
+        </div> 
+    </section>  
+    <section>
+        <h1 id="label4">GANNT CHART</h1>
+        <div id="append4" class="solution" >
+        </div> 
+    </section> 
+</body>
+</html>
